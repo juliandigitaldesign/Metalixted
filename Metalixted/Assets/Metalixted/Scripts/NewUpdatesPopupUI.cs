@@ -3,6 +3,7 @@ using UnityEngine.UI;
 using UnityEngine.Networking;
 using System.Collections;
 using TMPro;
+using System;
 
 namespace UpgradeSystem
 {
@@ -64,12 +65,12 @@ namespace UpgradeSystem
                     if (!string.IsNullOrEmpty(latestGameData.Version) && !Application.version.Equals(latestGameData.Version))
                     {
                         // new update is available
-                        uiLoadingText.text = "Descarga la actualización para poder continuar";
+                        uiLoadingText.text = "Actualización disponible";
                         uiDescriptionText.text = latestGameData.Description;
                         ShowPopup();
                     } else if (Application.version.Equals(latestGameData.Version))
                     {
-                        uiLoadingText.text = "Juego actualizado en su ultima versión.";
+                        uiLoadingText.text = "Juego actualizado a su ultima versión";
                         uiPlayButton.SetActive(true);
                     }
                 }
