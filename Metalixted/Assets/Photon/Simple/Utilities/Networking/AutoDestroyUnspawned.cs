@@ -40,7 +40,8 @@ namespace Photon.Pun.Simple
 
 #if UNITY_EDITOR
 
-		public void DetectPrefabParent()
+        [System.Obsolete]
+        public void DetectPrefabParent()
 		{
             if (Application.isPlaying)
                 return;
