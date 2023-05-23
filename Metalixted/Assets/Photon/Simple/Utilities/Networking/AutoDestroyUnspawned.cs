@@ -40,7 +40,6 @@ namespace Photon.Pun.Simple
 
 #if UNITY_EDITOR
 
-        [System.Obsolete]
         public void DetectPrefabParent()
 		{
             if (Application.isPlaying)
@@ -111,7 +110,7 @@ namespace Photon.Pun.Simple
 
 #if UNITY_2018_1_OR_NEWER
 
-		public void OnPreprocessBuild(BuildReport report)
+        public void OnPreprocessBuild(BuildReport report)
 		{
 			FindAndSetAll();
 		}
@@ -144,7 +143,7 @@ namespace Photon.Pun.Simple
 			}
 		}
 
-		public static void FindAndSetAll()
+        public static void FindAndSetAll()
 		{
 			AutoDestroyUnspawned[] nsts = Resources.FindObjectsOfTypeAll<AutoDestroyUnspawned>();
 
@@ -173,7 +172,7 @@ namespace Photon.Pun.Simple
 			}
 		}
 
-		public override void OnInspectorGUI()
+        public override void OnInspectorGUI()
 		{
 			base.OnInspectorGUI();
 

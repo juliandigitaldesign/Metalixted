@@ -6,9 +6,17 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Metalixted/Scenes/MainUpdate.unity
+    path: Assets/Metalixted/Scenes/_00MainUpdate.unity
     guid: 99c9720ab356a0642a771bea13969a05
   - enabled: 1
-    path: Assets/Metalixted/Scenes/Rooms.unity
+    path: Assets/Metalixted/Scenes/_01Rooms.unity
     guid: 98b059dccfdf49f43992a7e34819765e
-  m_configObjects: {}
+  - enabled: 1
+    path: Assets/Metalixted/Scenes/_02gameDeathMatch.unity
+    guid: 24f53bc3fa6aa8b4c809b0ebce0cec54
+  - enabled: 1
+    path: Assets/Metalixted/Scenes/_03gameSoccer.unity
+    guid: 3191a9b7ad1d4d447bfd1acaf8392466
+  m_configObjects:
+    com.unity.input.settings: {fileID: 11400000, guid: c719a92153f54684fac100b868c070fb,
+      type: 2}
