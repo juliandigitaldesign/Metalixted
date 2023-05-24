@@ -18,5 +18,9 @@ EditorBuildSettings:
     path: Assets/Metalixted/Scenes/_03gameSoccer.unity
     guid: 3191a9b7ad1d4d447bfd1acaf8392466
   m_configObjects:
+    com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 88ec904b0a0e7824e81cbac53a926c42,
+      type: 2}
+    com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000,
+      guid: 2dd36869289a0f842af729f8a6ada5ee, type: 2}
     com.unity.input.settings: {fileID: 11400000, guid: c719a92153f54684fac100b868c070fb,
       type: 2}
