@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 579ffd3860be75f4ea2eef3d0a0adf55, type: 3}
   m_Name: GameSettings
   m_EditorClassIdentifier: 
-  _gameVersion: 1.0.4
-  _nickName: Powaplus
+  _gameVersion: 1.0.0
+  _nickName: "POWA\u200B"
