@@ -5,18 +5,12 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
+  - enabled: 0
+    path: Assets/_00Metalixted/Scenes/_00Loading.unity
+    guid: 19eba9216309f1544a34b72ccf1cbf7b
   - enabled: 1
-    path: Assets/Metalixted/Scenes/_00MainUpdate.unity
-    guid: 99c9720ab356a0642a771bea13969a05
-  - enabled: 1
-    path: Assets/Metalixted/Scenes/_01Rooms.unity
-    guid: 98b059dccfdf49f43992a7e34819765e
-  - enabled: 1
-    path: Assets/Metalixted/Scenes/_02gameDeathMatch.unity
-    guid: 24f53bc3fa6aa8b4c809b0ebce0cec54
-  - enabled: 1
-    path: Assets/Metalixted/Scenes/_03gameSoccer.unity
-    guid: 3191a9b7ad1d4d447bfd1acaf8392466
+    path: Assets/_00Metalixted/Scenes/_03GameDM.unity
+    guid: a34dcc7f469d9fc49b55fb0ac50c1b37
   m_configObjects:
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 88ec904b0a0e7824e81cbac53a926c42,
       type: 2}
